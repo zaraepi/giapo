@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/base-min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/styles.css">
+	<title>Document</title>
+</head>
+<body id="page3">
+
+<header>
+	<div class="header-h allpage">
+		<div class="logo">
+			<a href="main.html"><img src="assets/giapologo.png" alt></a>
+		</div>
+
+		<div class="nav-bar">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</div>
+
+		<ul class="nav">
+			<li><a href="main.html">HOME</a></li>
+			<li><a href="page2.html">QUICK ORDER</a></li>
+			<li><a href="main.html">MENU</a></li>
+			<li><a href="main.html">ABOUT US</a></li>
+			<li><a href="main.html">CONTACT US</a></li>
+			<li><a href="main.html">OPEN HOURS</a></li>
+		</ul>
+
+	</div>
+</header>
+
+
+	<div class="main-container">
+		<a class="button back" href="page2.html">Back</a>
+		<h1 class="giapo-classic-title">Giapo Classic</h1>
+	</div>
+
+	<div class="noflex-container">
+		<div class="noflex-box buynow-primary">
+			<div class="icecream afghan buynow-img"></div>
+			<h1 class="buynow-title">WHAT IS IT</h1>
+			<h3 class="paragraph"> Hvad fulgte i kølvandet på tidligere dansk ejerskab over de vestindiske øer? Og hvordan har øerne efter 1917 og helt op til i dag været formet af fremmede magters interesser?</h3>
+			<h2 class="price">$6.50</h2>
+			<a class="button select buynow-btn" href="page4.html">BUY NOW</a>			
+		</div>
+	</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+
+<script>
+	$('.nav-bar').on('click',function(){
+
+		$('.nav').toggleClass('show');
+
+		if($('.nav').hasClass('show')) {
+			$('#page3').addClass('no-scroll');
+		} else {
+			$('#page3').removeClass('no-scroll');
+		}
+	});
+</script>
+
+
+	
+</body>
+</html>
